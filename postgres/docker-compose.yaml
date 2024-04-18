@@ -8,3 +8,5 @@ services:
       POSTGRES_DB: postgres-local
       POSTGRES_USER: root
       POSTGRES_PASSWORD: toor
+    ports:
+      - '5432:5432'
